@@ -1,0 +1,31 @@
+{
+    "name": "rag-knowledge-frontend",
+    "version": "1.0.0",
+    "description": "Enterprise frontend for RAG Knowledge Backend",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix"
+    },
+    "dependencies": {
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0",
+        "pinia": "^2.1.7",
+        "axios": "^1.6.8",
+        "ant-design-vue": "^4.2.0",
+        "@ant-design/icons-vue": "^7.0.1",
+        "highlight.js": "^11.9.0",
+        "marked": "^12.0.1",
+        "dompurify": "^3.0.11"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "typescript": "^5.4.5",
+        "vite": "^5.2.8",
+        "vue-tsc": "^2.0.11",
+        "@types/node": "^20.12.7",
+        "@types/dompurify": "^3.0.5"
+    }
+}
