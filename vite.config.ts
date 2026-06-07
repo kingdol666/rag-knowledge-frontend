@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
-      port: parseInt(env.FRONTEND_PORT || '3000'),
+      port: parseInt(env.FRONTEND_PORT || '3007'),
       proxy: {
         '/api': {
           target: apiUrl,
